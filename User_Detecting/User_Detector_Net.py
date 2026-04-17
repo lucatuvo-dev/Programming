@@ -5,6 +5,10 @@ y_train = []
 x_test = []
 y_test = []
 #x is the image, y is the corresponding label
+#each x is a list in itself containing the pixel values
+
+kernel = np.array([1,2,1], [2,4,2], [1,2,1])
+print(kernel)
 
 
 #Figure out the image scaling process using kernals
@@ -28,12 +32,12 @@ def one_hot(Y):
     one_hot_Y = one_hot_Y.T
     return one_hot_Y
 
-class Neural_Net():
-    def __init__(self)
+#class Neural_Net():
+    #def __init__(self):
         #Size of weights and biases will depend on size of processed image, number of layers, and number of nodes in input layers
-        self.W1 = np.random.rand()
+        #self.W1 = np.random.rand()
 
-hi luca
+
 
 
 
