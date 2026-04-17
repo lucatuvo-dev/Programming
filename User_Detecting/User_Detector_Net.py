@@ -33,6 +33,7 @@ class Neural_Net():
         #Size of weights and biases will depend on size of processed image, number of layers, and number of nodes in input layers
         self.W1 = np.random.rand()
 
+hi luca
 
 
 
