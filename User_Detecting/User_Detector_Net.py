@@ -1,5 +1,5 @@
 import numpy as np
-
+whats up b-dog
 x_train = []
 y_train = []
 x_test = []
